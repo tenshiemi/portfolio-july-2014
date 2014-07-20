@@ -2,5 +2,5 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World"
+  haml :index
 end
